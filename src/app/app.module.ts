@@ -8,13 +8,21 @@ import { AppComponent } from './app.component';
 import { TemplateFormComponent } from './template-form/template-form.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { FormstypeComponent } from './formstype/formstype.component';
+import { SchoolComponent } from './school/school.component';
+import { ClassAComponent } from './class-a/class-a.component';
+import { ClassBComponent } from './class-b/class-b.component';
+import { StudentsComponent } from './students/students.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TemplateFormComponent,
     ReactiveFormComponent,
-    FormstypeComponent
+    FormstypeComponent,
+    SchoolComponent,
+    ClassAComponent,
+    ClassBComponent,
+    StudentsComponent
   ],
   imports: [
     BrowserModule,
